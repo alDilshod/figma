@@ -1,0 +1,610 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__logo {}
+
+
+.header__menu-icon {
+    font-size: 35px;
+    color: #FA4A0C;
+
+}
+
+.header__menu-nav {
+    padding: 26px 0;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+
+.header__menu-nav-link {
+    color: #252B42;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 94px;
+
+    padding: 10px;
+
+}
+
+.header__menu-nav-link:hover {
+    color: #FA4A0C;
+
+}
+
+
+.header__fon {
+    background: url(../img/fon.jpg) no-repeat center center / cover;
+    color: #fff;
+    padding-top: 73px;
+    padding-bottom: 146px;
+}
+
+.header__fon-h3 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 22px;
+}
+
+.header__fon-h1 {
+    font-family: 'Poppins';
+    font-size: 58px;
+    font-weight: 700;
+    margin: 7px 0 17px;
+    line-height: 80px;
+}
+
+.header__fon-p {
+
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0 48px;
+
+
+}
+
+
+
+.header__fon-btn {
+    padding: 16px 58px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    margin: 0 17px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.header__fon-btn:hover {
+    background: #FA4A0C;
+    border: 1px solid transparent;
+
+}
+
+/* header ends */
+/* ************************** */
+
+/* phone starts */
+
+.phone__box {
+    height: 640px;
+    position: relative;
+
+}
+
+.phone__img {
+    position: absolute;
+    top: 161px;
+    left: 48%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* phone end */
+/* ********************************************** */
+
+
+/* app starts */
+
+.app__p {
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+}
+
+.app__p::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #E4E4E4;
+    margin-bottom: 72px;
+
+}
+
+
+/* app ends */
+/* *********************************************** */
+
+
+/* shop starts */
+
+.shop{
+    margin-top: 59px;
+}
+
+.shop__text{
+    /* margin: 150px 82px 150px 0; */
+    padding: 129px 0;
+    /* padding: 83px 72px 143px 0; */
+   
+    width: 100%;
+    
+}
+
+
+.shop__img-box{
+    width: 100%;
+    text-align: center;
+}
+.shop__img{
+    width: 100%;
+}
+
+.shop__text-h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+font-size: 24px;
+color: #FA4A0C;
+}
+
+.shop__text-h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 40px;
+    color: #252B42;
+    margin: 10px 0;
+}
+
+.shop__text-h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #737373;
+margin-top: 17px;
+}
+
+
+
+/* shop ends */
+/* ********************************** */
+
+/* download starts */
+
+.download {
+    background: url(../img/download.jpg) no-repeat center center / cover;
+    padding: 129px 0 137px;
+    color: #fff;
+    width: 100%;
+
+}
+
+.download__btn {
+    border-radius: 10px;
+    padding: 18px 31px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    margin: 50px 8px 0;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.download__btn:hover {
+    background: #FA4A0C;
+    border: 1px solid transparent;
+
+}
+
+.download__text-h2 {
+
+    font-family: 'Montserrat';
+    font-size: 40px;
+
+    font-weight: 700;
+    line-height: 57px;
+
+}
+
+.download__text-h4 {
+
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+
+
+}
+
+.download__text-extra{
+    display: none;
+}
+
+.extra-btn{
+    display: none;
+
+}
+/* download ends */
+/* ********************************** */
+
+/* footer start */
+
+.footer__icons {
+    font-size: 45px;
+    color: #FA4A0C;
+    margin: 0 12px;
+}
+
+.footer__icons:hover {
+    color: #d43f09;
+}
+
+.footer__text-p {
+
+    font-family: 'Roboto';
+    font-size: 12px;
+
+    font-weight: 700;
+
+
+}
+
+/* footer end */
+/* *********************************** */
+
+/* media starts */
+
+@media (max-width:807px) {
+    
+
+    .app__p::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #E4E4E4;
+        margin-bottom: 72px;
+        display: none;
+    }
+
+    .app__p::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #E4E4E4;
+        margin-top: 55px;
+    }
+}
+
+@media (max-width:767px){
+
+    .header__fon-btn {
+        margin: 17px 10px;
+    }
+
+  .shop__text-h4{
+      font-size: 15px;
+  }
+
+  .shop__text-h3{
+    font-size: 16px;
+}
+
+.shop__text-h2{
+    font-size: 20px;
+}
+
+.footer__icons {
+    font-size: 30px;
+   
+}
+.footer__text-p {
+    margin-left: 20px;
+}
+
+}
+
+@media (max-width:585px) {
+   
+
+    .app__p {
+
+        font-size: 33px;
+
+    }
+
+  
+    .app__p::before {
+
+        margin-bottom: 51px;
+    }
+
+    .footer__icons {
+        font-size: 20px;
+
+    }
+
+    .footer__text-p {
+        font-size: 10px;
+
+    }
+
+    .download__btn {
+
+        padding: 7px 21px;
+
+        font-size: 18px;
+        margin: 30px 8px 0;
+
+    }
+}
+
+@media (max-width:575px){
+
+    .header__fon-btn {
+        margin: 17px 12px;
+    }
+
+    .shop__order-1{
+        order: 1;
+    }
+    .shop__order-2{
+        order: 2;
+    }
+
+    .shop__order-3{
+        order: 3;
+    }
+
+    .shop__order-4{
+        order: 4;
+    }
+
+    .shop__order-5{
+        order: 5;
+    }
+
+    .shop__order-6{
+        order: 6;
+    }
+    .shop__text{
+        padding: 10px;
+        text-align: center;
+       
+    }
+    .shop__img{
+        width: 90%;
+    }
+    .shop__text-h3{
+        font-size: 24px;
+        padding: 15px;
+        line-height: 36px;
+
+    }
+    .shop__text-h2{
+        font-size: 40px;
+        line-height: 57px;
+        font-weight: bold;
+    }
+
+    .shop__text-h4{
+        font-size: 24px;
+        padding: 20px;
+        line-height: 38px;
+    }
+
+    .download {
+        background: #252B42;
+    }
+
+    .download__text-h2 {
+        padding: 0 15%;
+    }
+    .download__text-h4{
+        display: none;
+    }
+
+    .download__text-extra{
+        display: block;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        color: #BDBDBD;
+        padding: 0 20%;
+    }
+
+    .download__btn{
+       
+        display: none;
+    }
+    .extra-btn{
+        display: block;
+        margin-top: 50px;
+    }
+    .download__btn-extra-1{
+        padding: 18px 0px;
+        border: 1px solid #fff;
+        background: transparent;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        width: 137px;
+        border-radius: 10px;
+        margin: 0 8px;
+    }
+    .download__btn-extra-2{
+        padding: 18px 31px;
+        border: 1px solid #fff;
+        background: transparent;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        width: 186px;
+        border-radius: 10px;
+        margin: 0 8px;
+    }
+
+    .download__btn-extra-1:hover{
+        background: #FA4A0C;
+        border:none;
+    }
+    .download__btn-extra-2:hover{
+        background: #FA4A0C;
+        border: none;
+    }
+}
+
+@media (max-width: 476px) {
+    .header__fon-h1 {
+        font-size: 36px;
+        line-height: 42px;
+
+    }
+
+    .header__fon {
+        background: #FAFAFA;
+
+        color: #252B42;
+    }
+
+    .header__fon-btn {
+        margin: 17px 0px;
+        color: #FA4A0C;
+        border: 1px solid #FA4A0C;
+
+    }
+
+    .header__fon-btn:hover {
+        color: #fff;
+    }
+
+    .header__fon-p {
+        color: #737373;
+    }
+
+    .header__fon-h3 {
+        color: #737373;
+    }
+
+    .phone__img {
+        width: 100%;
+    }
+
+    .phone__img {
+
+        top: 88px;
+        left: 49%;
+
+    }
+
+    .app__p {
+        margin-top: -180px;
+    }
+
+    .app__p::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #E4E4E4;
+        margin-bottom: 72px;
+        display: none;
+    }
+
+    .app__p::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #E4E4E4;
+        margin-top: 55px;
+    }
+
+ 
+
+  
+    .download {
+        background: #252B42;
+    }
+
+    .footer__logo-img {
+        display: none;
+    }
+
+    .footer__block {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__icons {
+        font-size: 30px;
+
+
+    }
+
+    .footer__first {
+        margin-left: -30px;
+
+    }
+
+    .footer ul{
+        padding: 0;
+    }
+}
+
+
+/* media ends */
+/* ************************************** */
